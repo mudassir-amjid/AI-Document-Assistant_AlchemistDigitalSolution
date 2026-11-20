@@ -1,0 +1,16 @@
+@'
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Uploaded documents and vector database
+data/uploads/
+vector_db/
+
+# Streamlit
+.streamlit/secrets.toml
+'@ | Set-Content .gitignore
